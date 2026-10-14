@@ -524,7 +524,7 @@ class _WalletView extends StatelessWidget {
           child: _InfoCard(
             icon: Icons.history, 
             title: 'Riwayat Transaksi', 
-            value: 'Lihat riwayat transaksi anda disin.',
+            value: 'Lihat riwayat transaksi anda disini.',
           ),
         ),
       ],
