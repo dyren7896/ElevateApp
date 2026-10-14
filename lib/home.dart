@@ -519,6 +519,14 @@ class _WalletView extends StatelessWidget {
             value: 'Terima tunai saat ini hanya bisa melalui Qris dan Transfer.'
           ),
         ),
+        _Reveal(
+          index: 3, 
+          child: _InfoCard(
+            icon: Icons.history, 
+            title: 'Riwayat Transaksi', 
+            value: 'Lihat riwayat transaksi anda disin.',
+          ),
+        ),
       ],
     );
   }
